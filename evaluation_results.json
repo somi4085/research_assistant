@@ -1,0 +1,56 @@
+[
+  {
+    "test_case": 1,
+    "claim": "The data were collected through semi-structured interviews.",
+    "evidence": "The data were gathered by means of a semi-structured interview.",
+    "expected": "SUPPORTED",
+    "actual": "SUPPORTED",
+    "correct": true,
+    "explanation": "The evidence explicitly states the claim, using the same phrase 'The data were gathered by means of a semi-structured interview' as the claim itself."
+  },
+  {
+    "test_case": 2,
+    "claim": "The interviews were conducted in English.",
+    "evidence": "The interviews were conducted in Polish to avoid misunderstandings and allow participants to elaborate upon their answers.",
+    "expected": "CONTRADICTED",
+    "actual": "CONTRADICTED",
+    "correct": true,
+    "explanation": "The evidence states the interviews were conducted in Polish, which directly contradicts the claim that they were conducted in English."
+  },
+  {
+    "test_case": 3,
+    "claim": "The researcher used regression analysis.",
+    "evidence": "The quantitative analysis counted interviewee responses and calculated percentages.",
+    "expected": "NOT_SUPPORTED",
+    "actual": "NOT_SUPPORTED",
+    "correct": true,
+    "explanation": "The evidence mentions counting interviewee responses and calculating percentages, but does not mention or imply the use of regression analysis."
+  },
+  {
+    "test_case": 4,
+    "claim": "Every interview lasted exactly 30 minutes.",
+    "evidence": "The available evidence does not specify how long the interviews lasted.",
+    "expected": "INSUFFICIENT_EVIDENCE",
+    "actual": "INSUFFICIENT_EVIDENCE",
+    "correct": true,
+    "explanation": "The evidence does not specify how long the interviews lasted, leaving the duration unknown."
+  },
+  {
+    "test_case": 5,
+    "claim": "The interviews were conducted in Polish.",
+    "evidence": "The interviews were conducted in Polish to avoid misunderstandings and allow participants to elaborate upon their answers.",
+    "expected": "SUPPORTED",
+    "actual": "NOT_SUPPORTED",
+    "correct": false,
+    "explanation": "The evidence describes the motivation for conducting interviews in Polish (to avoid misunderstandings and allow participants to elaborate upon their answers), but does not explicitly state that the interviews were conducted in Polish."
+  },
+  {
+    "test_case": 6,
+    "claim": "The data were analyzed using qualitative and quantitative methods.",
+    "evidence": "The gathered data were subjected to qualitative and quantitative analysis.",
+    "expected": "SUPPORTED",
+    "actual": "NOT_SUPPORTED",
+    "correct": false,
+    "explanation": "The evidence mentions 'qualitative and quantitative analysis', but does not explicitly state that qualitative and quantitative methods were used for the analysis."
+  }
+]

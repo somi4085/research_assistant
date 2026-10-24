@@ -1,0 +1,21 @@
+[
+    {
+        "test_case": 1,
+        "question": "In which language were the interviews conducted?",
+        "expected": {
+            "correctness": "INCORRECT",
+            "faithfulness": "UNFAITHFUL",
+            "relevance": "RELEVANT"
+        },
+        "predicted": {
+            "correctness": "INCORRECT",
+            "faithfulness": "UNFAITHFUL",
+            "relevance": "RELEVANT"
+        },
+        "checks": {
+            "correctness": true,
+            "faithfulness": true,
+            "relevance": true
+        }
+    }
+]

@@ -1,0 +1,13 @@
+
+[
+  {
+    "question": "In which language were the interviews conducted?",
+    "evidence": "The interviews were conducted in Polish to avoid misunderstandings and let participants elaborate.",
+    "answer": "The interviews were conducted in English.",
+    "expected": {
+      "correctness": "INCORRECT",
+      "faithfulness": "UNFAITHFUL",
+      "relevance": "RELEVANT"
+    }
+  }
+]

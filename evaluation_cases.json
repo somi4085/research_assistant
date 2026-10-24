@@ -1,0 +1,33 @@
+
+[
+  {
+    "claim": "The data were collected through semi-structured interviews.",
+    "evidence": "The data were gathered by means of a semi-structured interview.",
+    "expected": "SUPPORTED"
+  },
+  {
+    "claim": "The interviews were conducted in English.",
+    "evidence": "The interviews were conducted in Polish to avoid misunderstandings and allow participants to elaborate upon their answers.",
+    "expected": "CONTRADICTED"
+  },
+  {
+    "claim": "The researcher used regression analysis.",
+    "evidence": "The quantitative analysis counted interviewee responses and calculated percentages.",
+    "expected": "NOT_SUPPORTED"
+  },
+  {
+    "claim": "Every interview lasted exactly 30 minutes.",
+    "evidence": "The available evidence does not specify how long the interviews lasted.",
+    "expected": "INSUFFICIENT_EVIDENCE"
+  },
+  {
+    "claim": "The interviews were conducted in Polish.",
+    "evidence": "The interviews were conducted in Polish to avoid misunderstandings and allow participants to elaborate upon their answers.",
+    "expected": "SUPPORTED"
+  },
+  {
+    "claim": "The data were analyzed using qualitative and quantitative methods.",
+    "evidence": "The gathered data were subjected to qualitative and quantitative analysis.",
+    "expected": "SUPPORTED"
+  }
+]
